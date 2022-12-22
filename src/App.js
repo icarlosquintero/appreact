@@ -19,7 +19,6 @@ function App() {
         >
           {welcome}
         </a>
-        <button onClick={hacerAlgo}>Click me</button>
       </header>
     </div>
   );
