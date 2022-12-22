@@ -1,7 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
-
-const welcome = "Bienvenidos a React";
+import "./components/Card";
+import Card from "./components/Card";
+import Button from "./components/Button";
 
 function App() {
   return (
@@ -16,9 +17,11 @@ function App() {
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          {welcome}
-        </a>
+        ></a>
+        <div>
+          <Card />
+          <Button />
+        </div>
       </header>
     </div>
   );
