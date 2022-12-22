@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+
+const welcome = "Bienvenidos a React";
 
 function App() {
   return (
@@ -15,8 +17,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React 2
+          {welcome}
         </a>
+        <button onClick={hacerAlgo}>Click me</button>
       </header>
     </div>
   );
